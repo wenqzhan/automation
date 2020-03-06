@@ -19,7 +19,7 @@ public class OpenBrowserDemo {
     public void openTest() {
 
       //driver.get("https://www.baidu.com/");
-      $.get("file:///e:/selenium_html/index.html");
+      $.get("file:///F:/%E6%BA%90%E7%A0%81/webdriver_demo/selenium_html/index.html");
       $.findElement(By.xpath("/html/body/div/table/tbody/tr[13]/td[2]/div[1]/input111")).click();
       $.findElement(By.xpath("/html/body/div/table/tbody/tr[13]/td[2]/div[2]/div"));
       Screenshot.screenshot("7777");

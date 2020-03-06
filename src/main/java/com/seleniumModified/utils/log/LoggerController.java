@@ -14,12 +14,13 @@ public class LoggerController {
     private static Logger logger = null;
     private static LoggerController logg = null;
 
+
     public static LoggerController getLogger(Class<?> T) {
-        if (logger == null){
+        if (logger == null) {
             Properties props = new Properties();
-            try{
+            try {
                 String path = System.getProperty("user.dir");
-                String filePath = path +"\\configs\\log4j.properties";
+                String filePath = path + "\\configs\\log4j.properties";
                 InputStream inputStream = new FileInputStream(filePath);
                 props.load(inputStream);
             } catch (IOException e) {
@@ -37,20 +38,39 @@ public class LoggerController {
     }
 
 
-    public void info(String msg){
-        logger.info(msg);
+    public static String getT() {
+        StringBuilder stringBuilder = new StringBuilder();
+        //String s = String.valueOf(Thread.currentThread().getStackTrace()[3]);
+        for (int i =0; i <Thread.currentThread().getStackTrace().length; i++) {
+            stringBuilder.append("\n" + "\t" + Thread.currentThread().getStackTrace()[i]);
+//            if (!String.valueOf(Thread.currentThread().getStackTrace()[i]).contains("")) {
+//                stringBuilder.append("\n" + "\t" + Thread.currentThread().getStackTrace()[i]);
+//                //System.out.print("\n" + "\t" + Thread.currentThread().getStackTrace()[i]);
+//
+//            } else {
+//                break;
+//            }
+
+        }
+        stringBuilder.append("\n");
+        return stringBuilder.toString();
     }
 
-    public void debug(String msg){
-        logger.debug(msg);
+
+    public void info(String msg) {
+        logger.info(msg );
     }
 
-    public void warn(String msg){
-        logger.warn(msg);
+    public void debug(String msg) {
+        logger.debug(msg );
     }
 
-    public void error(String msg){
-        logger.error(msg);
+    public void warn(String msg) {
+        logger.warn(msg );
+    }
+
+    public void error(String msg) {
+        logger.error(msg + "|" + getT());
     }
 
 }

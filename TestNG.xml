@@ -4,6 +4,7 @@
   <test name="webdriver_demo">
     <classes>
       <class name="com.demostration.OpenBrowserDemo"/>
+      <class name="com.demostration.RunCucumberDemo"/>
     </classes>
   </test> <!-- webdriver_demo -->
   <listeners>

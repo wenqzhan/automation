@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be619507-a6b6-4364-a29e-9a8d2bc67958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error/20200306/failure15834792993.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/error/20200306/skipped15834792777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/error/20200306/skipped15834792884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/TTTT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/log/LoggerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/log/LoggerController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +73,7 @@
           <entry key="feature" value="280" />
           <entry key="java" value="1168" />
           <entry key="properties" value="16" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="25" />
           <entry key="xml" value="145" />
         </counts>
       </usages-collector>
@@ -92,7 +81,7 @@
         <counts>
           <entry key="Cucumber" value="280" />
           <entry key="JAVA" value="1168" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="145" />
         </counts>
@@ -132,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -180,10 +169,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="162">
               <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -374,6 +363,11 @@
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,7 +468,7 @@
     <property name="SearchEverywhereHistoryKey" value="startwith&#9;PSI&#9;JAVA://com.seleniumModified.utils.asserts.MyAssert#assertStartWith&#10;log&#9;PSI&#9;JAVA://com.seleniumModified.utils.log.LoggerController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583721119783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583735503782" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/demostration/steps" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -485,7 +479,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -663,7 +657,7 @@
       <workItem from="1583213404079" duration="2449000" />
       <workItem from="1583286184608" duration="594000" />
       <workItem from="1583306702677" duration="1278000" />
-      <workItem from="1583308138164" duration="38655000" />
+      <workItem from="1583308138164" duration="40137000" />
     </task>
     <task id="LOCAL-00001" summary="sssssss">
       <created>1583309398814</created>
@@ -686,13 +680,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583483257761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="黄瓜改">
+      <created>1583721261390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583721261390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.06 at 17h 04m 56s.xml">
-      <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Quit_openTest - 2020.03.06 at 17h 21m 03s.xml">
       <configuration name="Quit.openTest" configurationId="TestNG" />
     </history-entry>
@@ -720,9 +718,12 @@
     <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.09 at 10h 28m 00s.xml">
       <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.09 at 10h 32m 18s.xml">
+      <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50444000" />
+    <option name="totallyTimeSpent" value="51926000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,7 +736,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -777,7 +777,8 @@
     <MESSAGE value="sssssss" />
     <MESSAGE value="pom" />
     <MESSAGE value="黄瓜" />
-    <option name="LAST_COMMIT_MESSAGE" value="黄瓜" />
+    <MESSAGE value="黄瓜改" />
+    <option name="LAST_COMMIT_MESSAGE" value="黄瓜改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="47" key="#OpenBrowserDemo" timestamp="1583160423272">
@@ -1101,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1122,6 +1116,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be619507-a6b6-4364-a29e-9a8d2bc67958" name="Default Changelist" comment="sssssss">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/features/demo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" afterDir="false" />
+    <list default="true" id="be619507-a6b6-4364-a29e-9a8d2bc67958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error/20200306/failure15834792993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error/20200306/skipped15834792777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/error/20200306/skipped15834792884.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/TTTT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/log/LoggerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/log/LoggerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,39 +62,39 @@
         <counts>
           <entry key="feature" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="33" />
-          <entry key="properties" value="1" />
+          <entry key="java" value="42" />
+          <entry key="properties" value="2" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="33" />
-          <entry key="Properties" value="1" />
+          <entry key="JAVA" value="42" />
+          <entry key="Properties" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="feature" value="280" />
-          <entry key="java" value="1036" />
+          <entry key="java" value="1168" />
           <entry key="properties" value="16" />
-          <entry key="txt" value="10" />
-          <entry key="xml" value="136" />
+          <entry key="txt" value="23" />
+          <entry key="xml" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="280" />
-          <entry key="JAVA" value="1036" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="JAVA" value="1168" />
+          <entry key="PLAIN_TEXT" value="26" />
           <entry key="Properties" value="16" />
-          <entry key="XML" value="136" />
+          <entry key="XML" value="145" />
         </counts>
       </usages-collector>
     </session>
@@ -104,51 +104,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#2270#2271#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-              </folding>
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/invoke/BoundMethodHandle.java">
+        <entry file="file://$PROJECT_DIR$/configs/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="385" selection-start-line="385" selection-end-line="385" />
+            <state relative-caret-position="513">
+              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/asserts/MyAssert.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/screenshot/Screenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/action/Actions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="351">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -156,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,20 +180,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+            <state relative-caret-position="324">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
-                <element signature="e#1680#1681#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1799#1800#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#2000#2001#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,6 +225,8 @@
     <findStrings>
       <find>getRetryAnalyzerClass</find>
       <find>Augmenter</find>
+      <find>驱动已退出</find>
+      <find>NoSuchElementException</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,14 +246,17 @@
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demostration/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/features/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" />
-        <option value="$PROJECT_DIR$/configs/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java" />
-        <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/test/features/demo.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/Quit.java" />
+        <option value="$PROJECT_DIR$/TestNG.xml" />
+        <option value="$PROJECT_DIR$/configs/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/TTTT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java" />
       </list>
     </option>
   </component>
@@ -287,6 +309,50 @@
     <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1Y6ZyslCbqApUmWH3VncCPyRpcy" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -379,6 +445,16 @@
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demostration" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -398,7 +474,7 @@
     <property name="SearchEverywhereHistoryKey" value="startwith&#9;PSI&#9;JAVA://com.seleniumModified.utils.asserts.MyAssert#assertStartWith&#10;log&#9;PSI&#9;JAVA://com.seleniumModified.utils.log.LoggerController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583483177569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583721119783" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/demostration/steps" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -406,10 +482,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -440,33 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: 用百度搜索">
-    <configuration name="TestLog4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demostration.TestLog4j" />
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demostration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demostration.ThreadTest" />
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demostration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.F:/Selenium_Demo/TestNG.xml">
     <configuration name="Scenario: 用百度搜索" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/demo.feature" />
@@ -495,7 +545,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenBrowserDemo.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -504,9 +554,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demostration" />
-      <option name="MAIN_CLASS_NAME" value="com.demostration.ThreadTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.demostration.OpenBrowserDemo" />
+      <option name="METHOD_NAME" value="openTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quit.openTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demostration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demostration" />
+      <option name="MAIN_CLASS_NAME" value="com.demostration.Quit" />
+      <option name="METHOD_NAME" value="openTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demostration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demostration" />
+      <option name="MAIN_CLASS_NAME" value="com.demostration.RunCucumberDemo" />
       <properties />
       <listeners />
       <method v="2">
@@ -515,18 +599,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.F:/Selenium_Demo/TestNG.xml" />
-      <item itemvalue="TestNG.ThreadTest.test" />
-      <item itemvalue="Application.ThreadTest" />
       <item itemvalue="Cucumber java.Scenario: 用百度搜索" />
-      <item itemvalue="Application.TestLog4j" />
+      <item itemvalue="TestNG.Quit.openTest" />
+      <item itemvalue="TestNG.OpenBrowserDemo.openTest" />
+      <item itemvalue="TestNG.RunCucumberDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: 用百度搜索" />
-        <item itemvalue="Application.TestLog4j" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="TestNG.ThreadTest.test" />
         <item itemvalue="TestNG.F:/Selenium_Demo/TestNG.xml" />
+        <item itemvalue="TestNG.RunCucumberDemo" />
+        <item itemvalue="Cucumber java.Scenario: 用百度搜索" />
+        <item itemvalue="TestNG.OpenBrowserDemo.openTest" />
+        <item itemvalue="TestNG.Quit.openTest" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +663,7 @@
       <workItem from="1583213404079" duration="2449000" />
       <workItem from="1583286184608" duration="594000" />
       <workItem from="1583306702677" duration="1278000" />
-      <workItem from="1583308138164" duration="29088000" />
+      <workItem from="1583308138164" duration="38655000" />
     </task>
     <task id="LOCAL-00001" summary="sssssss">
       <created>1583309398814</created>
@@ -595,43 +679,50 @@
       <option name="project" value="LOCAL" />
       <updated>1583313707021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="黄瓜">
+      <created>1583483257761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583483257761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadTest_test - 2020.03.06 at 15h 45m 28s.xml">
-      <configuration name="ThreadTest.test" configurationId="TestNG" />
+    <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.06 at 17h 04m 56s.xml">
+      <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ThreadTest_test - 2020.03.06 at 15h 45m 46s.xml">
-      <configuration name="ThreadTest.test" configurationId="TestNG" />
+    <history-entry file="Quit_openTest - 2020.03.06 at 17h 21m 03s.xml">
+      <configuration name="Quit.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ThreadTest_test - 2020.03.06 at 15h 46m 26s.xml">
-      <configuration name="ThreadTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ThreadTest_test - 2020.03.06 at 15h 47m 18s.xml">
-      <configuration name="ThreadTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ThreadTest_test - 2020.03.06 at 15h 48m 24s.xml">
-      <configuration name="ThreadTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 16h 03m 20s.xml">
+    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 17h 49m 38s.xml">
       <configuration name="Scenario: 用百度搜索" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 16h 07m 15s.xml">
+    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 17h 53m 20s.xml">
       <configuration name="Scenario: 用百度搜索" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 16h 16m 55s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.06 at 17h 57m 50s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.06 at 17h 59m 05s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 18h 41m 55s.xml">
       <configuration name="Scenario: 用百度搜索" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 16h 22m 43s.xml">
-      <configuration name="Scenario: 用百度搜索" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RunCucumberDemo - 2020.03.06 at 18h 42m 44s.xml">
+      <configuration name="RunCucumberDemo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Scenario__用百度搜索 - 2020.03.06 at 16h 24m 07s.xml">
-      <configuration name="Scenario: 用百度搜索" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.06 at 18h 43m 49s.xml">
+      <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Selenium_Demo_TestNG_xml - 2020.03.09 at 10h 28m 00s.xml">
+      <configuration name="F:/Selenium_Demo/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40877000" />
+    <option name="totallyTimeSpent" value="50444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,7 +737,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10501066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,8 +745,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26384366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -685,7 +776,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sssssss" />
     <MESSAGE value="pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom" />
+    <MESSAGE value="黄瓜" />
+    <option name="LAST_COMMIT_MESSAGE" value="黄瓜" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="47" key="#OpenBrowserDemo" timestamp="1583160423272">
@@ -807,20 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/screenshot/Screenshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/TTTT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Selenium_Demo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -890,100 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/asserts/MyAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/invoke/BoundMethodHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="385" selection-start-line="385" selection-end-line="385" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="14" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/action/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/TestLog4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
           <folding>
             <element signature="e#1680#1681#0" expanded="true" />
             <element signature="e#1762#1763#0" expanded="true" />
@@ -994,6 +982,146 @@
             <element signature="e#2037#2038#0" expanded="true" />
             <element signature="e#2120#2121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/invoke/BoundMethodHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/asserts/MyAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/Quit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/TTTT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/TestLog4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/action/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/screenshot/Screenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/features/demo.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/RunCucumberDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>

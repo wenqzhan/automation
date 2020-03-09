@@ -26,6 +26,7 @@ public class MyStepdefs {//我用"火狐"打开"百度"
     @并且("^我在搜索框里搜索\"(.*?)\"$")
     public void search(String str) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        $.findElement(By.id("kw")).clear();
         $.findElement(By.id("kw")).sendKeys(str);
         $.findElement(By.id("su")).click();
         log.info("搜索了"+str);

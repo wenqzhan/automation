@@ -13,6 +13,7 @@ import java.util.List;
 
 public class $ extends Driver {
     final static LoggerController log = LoggerController.getLogger($.class);
+
     public static WebElement findElement(final By by, int timeOutInSeconds) {
         WebElement webElement = null;
         try {
@@ -21,9 +22,14 @@ public class $ extends Driver {
                     return driver.findElement(by);
                 }
             });
-        } catch (Exception e) {
+        } catch (NoSuchElementException e) {
             log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到");
+            driver.quit();
+            log.info("webDriver驱动已退出");
             throw new NoSuchElementException("元素：" + by + "在" + timeOutInSeconds + "秒内找不到");
+        } catch (Exception e) {
+            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,发生了其他错误");
+            throw e;
         }
         log.info("元素：" + by + "已定位");
         return webElement;
@@ -42,9 +48,14 @@ public class $ extends Driver {
                     return driver.findElements(by);
                 }
             });
-        } catch (Exception e) {
+        } catch (NoSuchElementException e) {
             log.error("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到");
+            driver.quit();
+            log.info("webDriver驱动已退出");
             throw new NoSuchElementException("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到");
+        } catch (Exception e) {
+            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,发生了其他错误");
+            throw e;
         }
         log.info("元素(复数)：" + by + "已定位");
         return webElements;
@@ -56,17 +67,18 @@ public class $ extends Driver {
     }
 
     public static void get(String s) {
-        try{
-        driver.get(s);
-        log.info("已跳转"+s);}
-        catch (Exception e){
-            log.error("无法跳转"+s);
+        try {
+            driver.get(s);
+            log.info("已跳转" + s);
+        } catch (Exception e) {
+            log.error("无法跳转" + s);
         }
     }
 
     public static void quit() {
-        driver.quit();
         log.info("关闭浏览器驱动");
+        driver.quit();
+
     }
 
 }

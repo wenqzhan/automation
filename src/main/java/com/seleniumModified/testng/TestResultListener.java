@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import com.seleniumModified.utils.log.LoggerController;
 import com.seleniumModified.utils.screenshot.Screenshot;
-import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -19,7 +19,7 @@ import org.testng.TestListenerAdapter;
  */
 public class TestResultListener extends TestListenerAdapter {
 
-	private static Logger logger = Logger.getLogger(TestResultListener.class);
+	private static LoggerController logger = LoggerController.getLogger(TestResultListener.class);
 
 	@Override
 	public void onTestFailure(ITestResult tr) {

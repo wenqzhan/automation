@@ -2,17 +2,14 @@ package com.seleniumModified.action;
 
 import com.seleniumModified.Driver;
 import com.seleniumModified.utils.log.LoggerController;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
 public class $ extends Driver {
-    final static LoggerController log = LoggerController.getLogger($.class);
+    private final static LoggerController log = LoggerController.getLogger($.class);
 
     public static WebElement findElement(final By by, int timeOutInSeconds) {
         WebElement webElement = null;
@@ -23,13 +20,20 @@ public class $ extends Driver {
                 }
             });
         } catch (NoSuchElementException e) {
-            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到");
-            driver.quit();
-            log.info("webDriver驱动已退出");
-            throw new NoSuchElementException("元素：" + by + "在" + timeOutInSeconds + "秒内找不到");
-        } catch (Exception e) {
-            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,发生了其他错误");
-            throw e;
+            log.error("元素：" + by + "不存在");
+            //driver.quit();
+            //log.info("webDriver驱动已退出");
+            throw new NoSuchElementException("元素：" + by + "不存在" );
+        } catch (TimeoutException e) {
+            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,超时");
+            //driver.quit();
+            //log.info("webDriver驱动已退出");
+            throw new TimeoutException("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,超时");
+        } catch(Exception e){
+            log.error("元素：" + by + "找不到,发生了其他错误");
+            //river.quit();
+            //log.info("webDriver驱动已退出");
+            throw new NoSuchElementException("元素：" + by + "找不到,发生了其他错误" );
         }
         log.info("元素：" + by + "已定位");
         return webElement;
@@ -49,13 +53,20 @@ public class $ extends Driver {
                 }
             });
         } catch (NoSuchElementException e) {
-            log.error("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到");
-            driver.quit();
-            log.info("webDriver驱动已退出");
-            throw new NoSuchElementException("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到");
-        } catch (Exception e) {
-            log.error("元素：" + by + "在" + timeOutInSeconds + "秒内找不到,发生了其他错误");
-            throw e;
+            log.error("元素(复数)：" + by + "不存在");
+            //driver.quit();
+            //log.info("webDriver驱动已退出");
+            throw new NoSuchElementException("元素(复数)：" + by + "不存在" );
+        } catch (TimeoutException e) {
+            log.error("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到,超时");
+            //driver.quit();
+            //log.info("webDriver驱动已退出");
+            throw new TimeoutException("元素(复数)：" + by + "在" + timeOutInSeconds + "秒内找不到,超时");
+        } catch(Exception e){
+            log.error("元素(复数)：" + by + "找不到,发生了其他错误");
+            //river.quit();
+            //log.info("webDriver驱动已退出");
+            throw new NoSuchElementException("元素(复数)：" + by + "找不到,发生了其他错误" );
         }
         log.info("元素(复数)：" + by + "已定位");
         return webElements;

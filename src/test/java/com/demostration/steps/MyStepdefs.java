@@ -1,8 +1,7 @@
 package com.demostration.steps;
-import com.seleniumModified.action.$;
-import com.seleniumModified.action.Actions;
-import com.seleniumModified.utils.log.LoggerController;
-import io.cucumber.java.PendingException;
+import com.driver.$;
+import com.actions.OpenBrowserAction;
+import com.utils.log.LoggerController;
 import io.cucumber.java.zh_cn.*;
 import org.openqa.selenium.By;
 
@@ -14,7 +13,7 @@ public class MyStepdefs {//我用"火狐"打开"百度"
     public void open(String browser, String website) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         if(browser.equals("火狐")){
-            Actions.open("firefox");
+            OpenBrowserAction.open("firefox");
         }
         if(website.equals("百度")){
             $.get("https://www.baidu.com");

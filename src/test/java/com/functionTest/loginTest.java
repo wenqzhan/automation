@@ -11,7 +11,7 @@ import java.io.NotActiveException;
 
 import static com.matrix.appLeftMenu.isNotLeftMenuFormat;
 import static com.matrix.appLeftMenu.locateButtonAndNavigateTo;
-//import static com.matrix.loginPage.matrixLogin;
+//import static com.matrix.LoginPage.matrixLogin;
 import static com.matrix.manageObject.*;
 import static com.matrix.appTopRightButtons.changeMenuToLeft;
 

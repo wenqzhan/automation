@@ -8,7 +8,7 @@
   </classes>
 </test> <!-- webdriver_demo -->
   <listeners>
-          <listener class-name="com.seleniumModified.testng.RetryListener"/>
-          <listener class-name="com.seleniumModified.testng.TestResultListener"/>
+          <listener class-name="com.utils.testng.RetryListener"/>
+          <listener class-name="com.utils.testng.TestResultListener"/>
   </listeners>
 </suite> <!-- Default Suite -->

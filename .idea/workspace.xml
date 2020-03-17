@@ -2,83 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be619507-a6b6-4364-a29e-9a8d2bc67958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/driver/Xpath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pageObject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/convert/CharSequenceToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/json/JsonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/CharSequenceToStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_143854_15838223349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_145550_15838233506.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_161453_15838280939.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_163619_15838293794.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_163839_15838295193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/777720200310_164729_15838300498.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/assert_fail_20200310_143855_15838223352.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/assert_fail_20200310_145551_15838233511.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/assert_fail_20200310_161454_15838280943.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/assert_fail_20200310_163619_15838293798.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/assert_fail_20200310_163839_15838295197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/failure20200310_110329_15838094099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/skipped20200310_110308_15838093883.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error/20200310/skipped20200310_110319_15838093992.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/actions/newmatrix/NewMatrixLoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/$.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/action/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/testng/RetryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/testng/RetryListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/testng/TestResultListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/testng/TestResultListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/testng/TestngRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/testng/TestngRetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/testng/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/testng/utils/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/random/Randoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/asserts/MyAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/asserts/MyAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/date/DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/date/DateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/file/MyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/file/MyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/log/LoggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/log/LoggerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seleniumModified/utils/screenshot/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/screenshot/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/matrix/MatrixLoginAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/$.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/TestLog4j.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/TestLog4j.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/steps/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/functionTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/functionTest/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd1/locateWebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/locateWebElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd1/openWebBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/openWebBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd1/testNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd1/testNGDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/getShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/getShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/getTextTagAttributeIsDisplayedIsEnabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/getTextTagAttributeIsDisplayedIsEnabled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/isSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/isSelected.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/openInNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/openInNewWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/sendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/sendKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wq/dd2/wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/action/Actions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/testng/RetryListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/testng/TestResultListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/testng/TestngRetry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/testng/utils/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/asserts/MyAssert$ThrowingRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/asserts/MyAssert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/date/DateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/file/MyFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/log/LoggerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/seleniumModified/utils/screenshot/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/functionTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/functionTest/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matrix/appLeftMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/matrix/appLeftMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matrix/appTopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/matrix/appTopMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matrix/appTopRightButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/matrix/appTopRightButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matrix/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/matrix/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matrix/manageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/matrix/manageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/locateWebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/locateWebElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/openWebBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/openWebBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/testNGDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/testNGDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/getShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/getShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/getTextTagAttributeIsDisplayedIsEnabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/getTextTagAttributeIsDisplayedIsEnabled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/iframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/isSelected.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/isSelected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/openInNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/openInNewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/sendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/sendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demostration/TestLog4j.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd1/locateWebElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd1/openWebBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd1/testNGDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd1/testNGDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/alert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/getShot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/getTextTagAttributeIsDisplayedIsEnabled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/iframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/isSelected.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/openInNewWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/sendKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wq/dd2/wait.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,20 +85,21 @@
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="feature" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="84" />
+          <entry key="java" value="97" />
           <entry key="jpg" value="1" />
           <entry key="properties" value="2" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -138,27 +107,27 @@
           <entry key="Cucumber" value="4" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="97" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="30" />
+          <entry key="dummy" value="36" />
           <entry key="feature" value="280" />
-          <entry key="java" value="4308" />
+          <entry key="java" value="4774" />
           <entry key="properties" value="16" />
-          <entry key="txt" value="175" />
+          <entry key="txt" value="192" />
           <entry key="xml" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="280" />
-          <entry key="JAVA" value="4308" />
-          <entry key="PLAIN_TEXT" value="205" />
+          <entry key="JAVA" value="4774" />
+          <entry key="PLAIN_TEXT" value="228" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="150" />
         </counts>
@@ -167,57 +136,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/random/Randoms.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/convert/CharSequenceToString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/CharSequenceToStringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pageObject/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="175">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,19 +163,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/newmatrix/NewMatrixLoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="-50">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="125">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,24 +198,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/$.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2808">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="5575">
+              <caret line="290" column="14" selection-start-line="290" selection-start-column="14" selection-end-line="290" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2623#2624#0" expanded="true" />
-                <element signature="e#4179#4180#0" expanded="true" />
-                <element signature="e#4249#4250#0" expanded="true" />
+                <element signature="e#3225#3226#0" expanded="true" />
+                <element signature="e#3294#3295#0" expanded="true" />
+                <element signature="e#4850#4851#0" expanded="true" />
+                <element signature="e#4920#4921#0" expanded="true" />
+                <element signature="e#9948#9949#0" expanded="true" />
+                <element signature="e#10001#10002#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/Driver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="450">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -275,15 +226,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-284">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -317,12 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/seleniumModified/testng/RetryListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/Steps.java" />
-        <option value="$PROJECT_DIR$/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdef.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demostration/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/features/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demostration/ThreadTest.java" />
@@ -354,19 +294,25 @@
         <option value="$PROJECT_DIR$/src/test/java/com/unitTest/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pageObject/loginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actions/MatrixLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/driver/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/random/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/random/Randoms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/convert/CharsequenceToString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/convert/charsequencetostring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/convert/charSequenceToString.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/unitTest/CharSequenceToStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/convert/CharSequenceToString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pageObject/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/newmatrix/MatrixLoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/driver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/newmatrix/NewMatrixLoginAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/driver/$.java" />
       </list>
     </option>
@@ -414,8 +360,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="231" />
+    <option name="x" value="368" />
+    <option name="y" value="-17" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -490,6 +436,11 @@
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -547,7 +498,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="matrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -556,8 +508,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="newMatrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -594,30 +546,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="demostration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="unitTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.cucumber:cucumber-core:5.4.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Selenium_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.cucumber:cucumber-expressions:8.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -636,7 +569,7 @@
     <property name="SearchEverywhereHistoryKey" value="startwith&#9;PSI&#9;JAVA://com.seleniumModified.utils.asserts.MyAssert#assertStartWith&#10;log&#9;PSI&#9;JAVA://com.seleniumModified.utils.log.LoggerController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584086191401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584432633597" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/demostration/steps" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -650,21 +583,21 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wenqin\IdeaProjects\Selenium_Demo\src\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.misc" />
+      <recent name="com.actions" />
+      <recent name="com.pageObject.matrix" />
+      <recent name="com.actions.matrix" />
       <recent name="com.utils.random" />
-      <recent name="com.unitTest" />
-      <recent name="com.driver" />
-      <recent name="com.utils" />
-      <recent name="com.seleniumModified.action" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Selenium_Demo\src\main\java\com\seleniumModified\action" />
       <recent name="E:\idea\Selenium_Demo" />
       <recent name="E:\idea\Selenium_Demo\src\main\resources" />
       <recent name="C:\Users\wenqin\IdeaProjects\Selenium_Demo\src\test\java\com\matrix" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wenqin\IdeaProjects\Selenium_Demo\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -837,6 +770,7 @@
       <workItem from="1583286184608" duration="594000" />
       <workItem from="1583306702677" duration="1278000" />
       <workItem from="1583308138164" duration="71625000" />
+      <workItem from="1584418064841" duration="9213000" />
     </task>
     <task id="LOCAL-00001" summary="sssssss">
       <created>1583309398814</created>
@@ -880,43 +814,50 @@
       <option name="project" value="LOCAL" />
       <updated>1583804880102</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.实现登录matrix">
+      <created>1584086406909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584086406909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonTest_testJson3 - 2020.03.13 at 10h 19m 31s.xml">
-      <configuration name="JsonTest.testJson3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_testJson - 2020.03.13 at 13h 22m 04s.xml">
-      <configuration name="LoginPageTest.testJson" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginPageTest_testJson - 2020.03.13 at 13h 22m 53s.xml">
-      <configuration name="LoginPageTest.testJson" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.13 at 14h 42m 00s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 13h 46m 15s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.13 at 14h 44m 57s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 11m 30s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.13 at 14h 47m 08s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 13m 33s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.13 at 15h 09m 43s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 14m 58s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CharSequenceToStringTest_test - 2020.03.13 at 15h 31m 48s.xml">
-      <configuration name="CharSequenceToStringTest.test" configurationId="TestNG" />
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 19m 45s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CharSequenceToStringTest_test - 2020.03.13 at 15h 33m 50s.xml">
-      <configuration name="CharSequenceToStringTest.test" configurationId="TestNG" />
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 43m 21s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.13 at 15h 35m 52s.xml">
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 44m 38s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 47m 52s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 48m 55s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.17 at 15h 53m 33s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108385000" />
+    <option name="totallyTimeSpent" value="121865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,9 +870,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -939,8 +879,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26384366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,7 +914,8 @@
     <MESSAGE value="黄瓜改" />
     <MESSAGE value="黄瓜改2" />
     <MESSAGE value="1.针对cucumber增加了Hooks挂钩以支持@After&#10;2.删除冗余测试用截图&#10;3.魔改WebDriver中查找元素方法,支持显示等待并完善try,catch&#10;4.修复重跑监听类引用了错误的logger&#10;5.修改截图类,修改截图文件名并优化冗余代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.针对cucumber增加了Hooks挂钩以支持@After&#10;2.删除冗余测试用截图&#10;3.魔改WebDriver中查找元素方法,支持显示等待并完善try,catch&#10;4.修复重跑监听类引用了错误的logger&#10;5.修改截图类,修改截图文件名并优化冗余代码" />
+    <MESSAGE value="1.实现登录matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.实现登录matrix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="47" key="#OpenBrowserDemo" timestamp="1583160423272">
@@ -1067,9 +1008,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cucumber/Steps.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cucumber/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdef.java" />
     <entry file="file://$PROJECT_DIR$/src/test/features/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/log/LoggerController.java">
@@ -1140,9 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,13 +1089,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1176,9 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#1354#1367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,35 +1117,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/locateWebElement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/locateWebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/testNGDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd1/testNGDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd1/testNGDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-53">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/seleniumDemo/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/misc/seleniumDemo/dd2/action_RightClick_DoubleClick_MoveToElement_MutipleClick_DragAndDrop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2282">
           <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/functionTest/loginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/misc/functionTest/loginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
@@ -1297,13 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/JsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1325,31 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1107">
           <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,45 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/CharSequenceToStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pageObject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/MatrixLoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/convert/CharSequenceToString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1406,28 +1260,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/$.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2808">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="538">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/CharSequenceToStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2623#2624#0" expanded="true" />
-            <element signature="e#4179#4180#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/matrix/MatrixLoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/newmatrix/NewMatrixLoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="100">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/$.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5575">
+          <caret line="290" column="14" selection-start-line="290" selection-start-column="14" selection-end-line="290" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3225#3226#0" expanded="true" />
+            <element signature="e#3294#3295#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+            <element signature="e#4920#4921#0" expanded="true" />
+            <element signature="e#9948#9949#0" expanded="true" />
+            <element signature="e#10001#10002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,33 +15,44 @@ import java.util.List;
  * 对原生Driver进行扩展,以支持显示等待
  *
  * @author wenqzhan
- * @date 2020/03/10
+ * @date 2020/03/17
  */
 public class $ extends Driver {
     private final static LoggerController log = LoggerController.getLogger($.class);
 
-
+/**
+ * 清除内容
+ * eg: 输入框中有内容,调用此方法后清除
+ * */
     public static void clear(){
         try {
             element.clear();
             log.info("clear 成功");
-        } catch (WebDriverException e) {
+        } catch (Exception e) {
             log.error("clear 失败");
         }
     }
 
-
+/**
+ * 输入内容
+ * @param keysToSend 需要输入的内容
+ * */
     public static void sendKeys(CharSequence... keysToSend){
         try {
             element.sendKeys(keysToSend);
             log.info("输入了:"+ CharSequenceToString.toString(keysToSend));
-        } catch (WebDriverException e) {
+        } catch (Exception e) {
             log.error("输入 失败");
         }
     }
 
 
-
+    /**
+     * 定位单个网页元素,并返回一个网页元素
+     *
+     * @param jsonObject        json,包含元素的描述和定位方式
+     * @param timeOutInSeconds 超时时间,以秒为单位
+     */
     public static WebElement findElement(JSONObject jsonObject, int timeOutInSeconds){
 
         str = jsonObject.getString("description");
@@ -51,17 +62,26 @@ public class $ extends Driver {
             by = By.id(jsonObject.getString("id"));
         }
 
-        log.info("定位了元素:"+str);
+        log.info("即将定位元素:"+str);
         return findElement(by,timeOutInSeconds);
     }
 
-
+    /**
+     * 定位单个网页元素,并返回一个网页元素,默认超时时间为10秒
+     *
+     * @param jsonObject        json,包含元素的描述和定位方式
+     */
     public static WebElement findElement(JSONObject jsonObject){
 
         return findElement(jsonObject,10);
     }
 
-
+    /**
+     * 定位多个网页元素,并返回一个网页元素的list
+     *
+     * @param jsonObject        json,包含元素的描述和定位方式
+     * @param timeOutInSeconds 超时时间,以秒为单位
+     */
     public static List<WebElement> findElements(JSONObject jsonObject, int timeOutInSeconds) {
         str = jsonObject.getString("description");
         if(jsonObject.getString("xpath") != null){
@@ -69,10 +89,15 @@ public class $ extends Driver {
         }else if(jsonObject.getString("id") != null){
             by = By.id(jsonObject.getString("id"));
         }
-        log.info("定位了元素:"+str);
+        log.info("即将定位元素:"+str);
         return findElements(by,timeOutInSeconds);
     }
 
+    /**
+     * 定位多个网页元素,并返回一个网页元素的list,默认超时时间为10秒
+     *
+     * @param jsonObject        json,包含元素的描述和定位方式
+     */
     public static List<WebElement> findElements(JSONObject jsonObject) {
 
         return findElements(jsonObject,10);
@@ -250,10 +275,21 @@ public class $ extends Driver {
      * 使用Javascript将元素滚动到可见的位置
      */
     public static void scrollIntoView() {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(false);", element);
+        moveMouseToView();
     }
 
+    /**
+     * 模拟悬停鼠标
+     */
+    public static void moveMouseToView(){
+        action.moveToElement(element).perform();
+        log.info("鼠标悬停");
+    }
 
+    /**
+     * 查找显示的元素
+     */
     public static WebElement findDisplayedElement() {
         for (WebElement e : elements
         ) {
@@ -311,7 +347,6 @@ public class $ extends Driver {
      * 双击
      */
     public static void doubleClick() {
-        Actions action = new Actions(driver);
         action.doubleClick(element).perform();
     }
 

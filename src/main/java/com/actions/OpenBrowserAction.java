@@ -5,6 +5,8 @@ import com.utils.log.LoggerController;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+
 /**
  * 封装打开浏览器的操作
  * @author wenqzhan
@@ -12,11 +14,20 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
  * */
 public class OpenBrowserAction extends $ {
     private final static LoggerController log = LoggerController.getLogger(OpenBrowserAction.class);
+
+
+    public static void open (String browser){
+        initialise(browser);
+        driver.manage().window().maximize();
+        action= new Actions(driver);
+    }
+
+
     /**
      * 封装调用浏览器方法
      * @param browser 浏览器名称
      * */
-    public static void open (String browser){
+    public static void initialise (String browser){
 
         String path = System.getProperty("user.dir");
         if(browser.equals("chrome")){
@@ -30,7 +41,7 @@ public class OpenBrowserAction extends $ {
             System.setProperty("webdriver.gecko.driver",path + "\\drivers\\geckodriver.exe");
             System.out.println(path+ "\\drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
-            driver.manage().window().maximize();
+            //driver.manage().window().maximize();
             log.info("实例化了一个新的"+browser);
         }else
             //System.err.print("Wrong browser name:" + browser);

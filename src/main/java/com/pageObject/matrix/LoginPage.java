@@ -1,36 +1,28 @@
-package com.pageObject.matrix;
+package com.pageobject.matrix;
 
 import com.alibaba.fastjson.JSONObject;
 import com.utils.json.JsonObject;
-import org.openqa.selenium.By;
 
 public class LoginPage extends JsonObject {
 
+    public static String matrixLoginUrl = "http://10.187.144.60:8080/user/login";
 
+    public final static String d1="新matrix登录页面用户名输入框";
+    private final static String i1="username";
 
-//    public static String parentXpath;
-//    public static String childTagName;
-//    public static String childTagText;
-//    public static String[] containsAttributeValue;
-//    public static String[] notContainsAttributeValue;
+    public final static String d2="新matrix登录页面密码输入框";
+    private final static String i2="password";
 
+    public final static String d3="新matrix登录页面登录失败提示";
+    private final static String x3="//div[@class='ant-notification-notice-message']";
 
+    public final static String d4="新matrix登录页面登录按钮";
+    private final static String x4="//button[@type='submit']";
 
-    public static String matrixLoginUrl = "http://10.189.101.32:8080/";
-    //public static JsonObject jsonObject= new JsonObject();
-    //public static JSONObject json = new JSONObject();
-    public final static String d1="登录页面用户名输入框";
-    private final static String i1="j_username";
+    //public final static String d5="ddddddd";
+    //private final static String x5="//*[name()=\"svg\" and @data-icon='caret-down']";
 
-    public final static String d2="登录页面密码输入框";
-    private final static String i2="j_password";
-
-    public final static String d3="登录页面登录异常提示";
-    private final static String x3="//html/body/div[3]/div/div[2]/div[2]/div/div[1]/p[contains(@style,'bloc')]";
-
-    public final static String d4="登录页面登录按钮";
-    private final static String i4="login_button";
-
+    //*[name()="svg" and @data-icon='caret-down']
 
     public static JSONObject getJson(String description){
         switch (description){
@@ -44,30 +36,17 @@ public class LoginPage extends JsonObject {
                 JsonObject.setJsonObject(d3,x3);
                 break;
             case d4:
-                JsonObject.setJsonObject(d4,"id",i4);
+                JsonObject.setJsonObject(d4,x4);
                 break;
+            //case d5:
+                //JsonObject.setJsonObject(d5,x5);
+                //break;
         }
 
 
         return jsonObject;
     }
 
-
-
-    //public static By loginPageCaptchaImageXpath = By.id("j_captchacode_img");
-    //    登录页面验证码图片 验证码已废弃
-  //  public static By loginPageUserNameInputXpath = By.id("j_username");
-    //     登录页面用户名输入框
-   // public static By loginPagePasswordInputXpath = By.id("j_password");
-    //    登录页面密码输入框
-    //public static By loginPageCaptchaInputXpath = By.id("j_captchacode");
-    //    登录页面验证码框 验证码已废弃
-   // public static By loginPageFailedInfoXpath = By.xpath("//*[@class=\"login-valid-text\"]/div");
-    ///html/body/div[3]/div/div[2]/div[2]/div/div[1]/p[contains(@style,'bloc')]
-//    登录页面登录异常提示文本框
-/////////////     以上内容是登录页面元素
-
-    public static By mainView = By.id("app-mainview-body");
 
 
 }

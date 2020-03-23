@@ -1,8 +1,8 @@
 package com.actions.matrix;
 
-
 import com.driver.$;
-import com.pageObject.matrix.LoginPage;
+import com.pageobject.matrix.LoginPage;
+import com.pageobject.matrix.TopNavigator;
 
 public class MatrixLoginAction extends $ {
 
@@ -11,16 +11,29 @@ public class MatrixLoginAction extends $ {
         jsonObject = LoginPage.getJson(LoginPage.d1);
         $.findElement(jsonObject);
         $.clear();
-        $.sendKeys("029527");
+        $.sendKeys("999999");
         jsonObject = LoginPage.getJson(LoginPage.d2);
 
         $.findElement(jsonObject);
         $.clear();
-        $.sendKeys("gtja@2020");
+        $.sendKeys("gtja@123456");
 
         jsonObject = LoginPage.getJson(LoginPage.d4);
         $.findElement(jsonObject);
         $.click();
+
+        jsonObject = TopNavigator.getJson(TopNavigator.d2);
+        $.findElement(jsonObject);
+        //$.click();
+
+        jsonObject = TopNavigator.getJson(TopNavigator.d4);
+        $.findElement(jsonObject);
+        $.click();
+
+        jsonObject = TopNavigator.getJson(TopNavigator.d6);
+        $.findElement(jsonObject);
+        $.click();
+
     }
 
 

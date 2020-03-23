@@ -31,7 +31,10 @@ public class OpenBrowserAction extends $ {
 
         String path = System.getProperty("user.dir");
         if(browser.equals("chrome")){
+            System.setProperty("webdriver.chrome.driver", path + "\\drivers\\chromedriver.exe");
+            System.out.println(path+ "\\drivers\\geckodriver.exe");
             driver = new ChromeDriver();
+            log.info("实例化了一个新的"+browser);
             //属性需要进一步设置
         }else if (browser.equals("ie")){
             driver = new InternetExplorerDriver();

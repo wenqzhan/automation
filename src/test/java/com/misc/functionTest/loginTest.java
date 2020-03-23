@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
 
-//import static com.misc.matrix.NewLoginPage.matrixLogin;
+//import static com.misc.oldmatrix.LoginPage.matrixLogin;
 
 
 public class loginTest {

@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="be619507-a6b6-4364-a29e-9a8d2bc67958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/geckodriver-v0.26.0-win64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/OpenBrowserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/matrix/MatrixLoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/actions/oldmatrix/OldMatrixLoginAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/matrix/NewMatrixLoginAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/oldmatrix/OldLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLeftNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/LeftNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/newMatrix/NewTopNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/TopNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/misc/functionTest/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/misc/functionTest/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unitTest/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demostration/OpenBrowserDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/actions/newmatrix/NewMatrixLoginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LeftNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/LeftNavigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/matrix/TopNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/matrix/TopNavigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pageObject/oldmatrix/OldLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pageobject/oldmatrix/OldLoginPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,28 +109,28 @@
           <entry key="dummy" value="12" />
           <entry key="java" value="12" />
           <entry key="properties" value="3" />
-          <entry key="txt" value="27" />
+          <entry key="txt" value="45" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="PLAIN_TEXT" value="57" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -146,15 +139,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="342">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#964#965#0" expanded="true" />
                 <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/oldmatrix/OldMatrixLoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,15 +209,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configs/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -516,26 +512,6 @@
             </path>
             <path>
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
-              <item name="matrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
-              <item name="oldmatrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -555,7 +531,7 @@
     <property name="SearchEverywhereHistoryKey" value="xpath&#9;PSI&#9;JAVA://com.driver.Xpath&#10;startwith&#9;PSI&#9;JAVA://com.seleniumModified.utils.asserts.MyAssert#assertStartWith&#10;log&#9;PSI&#9;JAVA://com.seleniumModified.utils.log.LoggerController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584959205942" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584959835393" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -805,7 +781,7 @@
       <workItem from="1583308138164" duration="71625000" />
       <workItem from="1584418064841" duration="10912000" />
       <workItem from="1584494495567" duration="41195000" />
-      <workItem from="1584944186477" duration="8374000" />
+      <workItem from="1584944186477" duration="9020000" />
     </task>
     <task id="LOCAL-00001" summary="sssssss">
       <created>1583309398814</created>
@@ -884,13 +860,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584954958199</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="重命名新matrix的文件">
+      <created>1584959299256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584959299256</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenBrowserDemo_openTest - 2020.03.23 at 11h 38m 52s.xml">
-      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="XpathTest_teeeee - 2020.03.23 at 11h 44m 45s.xml">
       <configuration name="XpathTest.teeeee" configurationId="TestNG" />
     </history-entry>
@@ -918,9 +898,12 @@
     <history-entry file="OpenBrowserDemo_openTest - 2020.03.23 at 18h 18m 06s.xml">
       <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="OpenBrowserDemo_openTest - 2020.03.23 at 18h 26m 23s.xml">
+      <configuration name="OpenBrowserDemo.openTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173133000" />
+    <option name="totallyTimeSpent" value="173779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,9 +916,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -948,10 +930,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26384366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.330076" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4989339" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -983,7 +965,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="修改日志保存目录到d盘" />
     <MESSAGE value="修改pom文件补充maven-compiler-plugin版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改pom文件补充maven-compiler-plugin版本号" />
+    <MESSAGE value="重命名新matrix的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="重命名新matrix的文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="47" key="#OpenBrowserDemo" timestamp="1583160423272">
@@ -1257,16 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/oldmatrix/OldMatrixLoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.66/fastjson-1.2.66-sources.jar!/com/alibaba/fastjson/JSONObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1459,12 +1432,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demostration/OpenBrowserDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="342">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#964#965#0" expanded="true" />
             <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actions/oldmatrix/OldMatrixLoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

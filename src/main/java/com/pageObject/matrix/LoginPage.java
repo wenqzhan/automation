@@ -6,6 +6,16 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends JsonObject {
 
+
+
+//    public static String parentXpath;
+//    public static String childTagName;
+//    public static String childTagText;
+//    public static String[] containsAttributeValue;
+//    public static String[] notContainsAttributeValue;
+
+
+
     public static String matrixLoginUrl = "http://10.189.101.32:8080/";
     //public static JsonObject jsonObject= new JsonObject();
     //public static JSONObject json = new JSONObject();
@@ -25,16 +35,16 @@ public class LoginPage extends JsonObject {
     public static JSONObject getJson(String description){
         switch (description){
             case d1:
-                JsonObject.setJsonObect(d1,"id",i1);
+                JsonObject.setJsonObject(d1,"id",i1);
                 break;
             case d2:
-                JsonObject.setJsonObect(d2,"id",i2);
+                JsonObject.setJsonObject(d2,"id",i2);
                 break;
             case d3:
-                JsonObject.setJsonObect(d3,x3);
+                JsonObject.setJsonObject(d3,x3);
                 break;
             case d4:
-                JsonObject.setJsonObect(d4,"id",i4);
+                JsonObject.setJsonObject(d4,"id",i4);
                 break;
         }
 

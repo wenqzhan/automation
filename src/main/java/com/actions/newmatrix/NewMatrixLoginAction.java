@@ -2,6 +2,7 @@ package com.actions.newmatrix;
 
 import com.driver.$;
 import com.pageObject.newMatrix.NewLoginPage;
+import com.pageObject.newMatrix.NewTopNavigator;
 
 public class NewMatrixLoginAction extends $ {
 
@@ -21,9 +22,17 @@ public class NewMatrixLoginAction extends $ {
         $.findElement(jsonObject);
         $.click();
 
-        jsonObject = NewLoginPage.getJson(NewLoginPage.d5);
+        jsonObject = NewTopNavigator.getJson(NewTopNavigator.d2);
         $.findElement(jsonObject);
         //$.click();
+
+        jsonObject = NewTopNavigator.getJson(NewTopNavigator.d4);
+        $.findElement(jsonObject);
+        $.click();
+
+        jsonObject = NewTopNavigator.getJson(NewTopNavigator.d6);
+        $.findElement(jsonObject);
+        $.click();
 
     }
 

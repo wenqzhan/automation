@@ -225,8 +225,9 @@ public class $ extends Driver {
             element.click();
             log.info("点击成功");
         } catch (WebDriverException e) {
-            forceClick();
             log.info("点击失败,尝试强制点击");
+            forceClick();
+
         }
     }
 
@@ -284,7 +285,7 @@ public class $ extends Driver {
      */
     public static void moveMouseToView(){
         action.moveToElement(element).perform();
-        log.info("鼠标悬停");
+        //log.info("鼠标悬停");
     }
 
     /**

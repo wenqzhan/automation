@@ -2,11 +2,10 @@ package com.pageObject.newMatrix;
 
 import com.alibaba.fastjson.JSONObject;
 import com.utils.json.JsonObject;
-import org.openqa.selenium.By;
 
 public class NewLoginPage extends JsonObject {
 
-     public static String matrixLoginUrl = "http://10.187.144.60:8080/user/login";
+    public static String matrixLoginUrl = "http://10.187.144.60:8080/user/login";
 
     public final static String d1="新matrix登录页面用户名输入框";
     private final static String i1="username";
@@ -20,28 +19,28 @@ public class NewLoginPage extends JsonObject {
     public final static String d4="新matrix登录页面登录按钮";
     private final static String x4="//button[@type='submit']";
 
-    public final static String d5="ddddddd";
-    private final static String x5="//*[name()=\"svg\" and @data-icon='caret-down']";
+    //public final static String d5="ddddddd";
+    //private final static String x5="//*[name()=\"svg\" and @data-icon='caret-down']";
 
     //*[name()="svg" and @data-icon='caret-down']
 
     public static JSONObject getJson(String description){
         switch (description){
             case d1:
-                JsonObject.setJsonObect(d1,"id",i1);
+                JsonObject.setJsonObject(d1,"id",i1);
                 break;
             case d2:
-                JsonObject.setJsonObect(d2,"id",i2);
+                JsonObject.setJsonObject(d2,"id",i2);
                 break;
             case d3:
-                JsonObject.setJsonObect(d3,x3);
+                JsonObject.setJsonObject(d3,x3);
                 break;
             case d4:
-                JsonObject.setJsonObect(d4,x4);
+                JsonObject.setJsonObject(d4,x4);
                 break;
-            case d5:
-                JsonObject.setJsonObect(d5,x5);
-                break;
+            //case d5:
+                //JsonObject.setJsonObject(d5,x5);
+                //break;
         }
 
 

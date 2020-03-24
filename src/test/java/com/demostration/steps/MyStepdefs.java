@@ -9,18 +9,18 @@ public class MyStepdefs {//我用"火狐"打开"百度"
 
     final static LoggerController log = LoggerController.getLogger(MyStepdefs.class);
 
-    @当("^我用\"(.*?)\"打开\"(.*?)\"$")
-    public void open(String browser, String website) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        if(browser.equals("火狐")){
-            OpenBrowserAction.open("firefox");
-        }
-        if(website.equals("百度")){
-            $.get("https://www.baidu.com");
-        }
-        log.info("我用"+browser+"打开了"+website);
-        //throw new PendingException();
-    }
+//    @当("^我用\"(.*?)\"打开\"(.*?)\"$")
+//    public void open(String browser, String website) throws Throwable {
+//        // Write code here that turns the phrase above into concrete actions
+//        if(browser.equals("火狐")){
+//            OpenBrowserAction.open("firefox");
+//        }
+//        if(website.equals("百度")){
+//            $.get("https://www.baidu.com");
+//        }
+//        log.info("我用"+browser+"打开了"+website);
+//        //throw new PendingException();
+//    }
 
     @并且("^我在搜索框里搜索\"(.*?)\"$")
     public void search(String str) throws Throwable {

@@ -19,6 +19,9 @@ public class LoginPage extends JsonObject {
     public final static String d4="新matrix登录页面登录按钮";
     private final static String x4="//button[@type='submit']";
 
+    public final static String d5="新matrix登录页面登录失败详细说明";
+    private final static String x5="//div[@class='ant-notification-notice-description']";
+
     //public final static String d5="ddddddd";
     //private final static String x5="//*[name()=\"svg\" and @data-icon='caret-down']";
 
@@ -37,6 +40,9 @@ public class LoginPage extends JsonObject {
                 break;
             case d4:
                 JsonObject.setJsonObject(d4,x4);
+                break;
+            case d5:
+                JsonObject.setJsonObject(d5,x5);
                 break;
             //case d5:
                 //JsonObject.setJsonObject(d5,x5);

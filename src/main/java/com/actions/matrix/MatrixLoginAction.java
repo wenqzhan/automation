@@ -12,8 +12,8 @@ public class MatrixLoginAction extends $ {
         $.findElement(jsonObject);
         $.clear();
         $.sendKeys("999999");
-        jsonObject = LoginPage.getJson(LoginPage.d2);
 
+        jsonObject = LoginPage.getJson(LoginPage.d2);
         $.findElement(jsonObject);
         $.clear();
         $.sendKeys("gtja@123456");

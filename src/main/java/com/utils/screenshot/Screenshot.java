@@ -37,6 +37,7 @@ public class Screenshot extends $ {
             e.printStackTrace();
         }
         log.info("截图成功");
+
     }
 
     //**

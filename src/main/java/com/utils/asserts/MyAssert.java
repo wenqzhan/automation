@@ -192,7 +192,8 @@ public class MyAssert {
     }
 
     public static void fail(String message) {
-        Screenshot.screenshot("assert_fail_");
+        //Screenshot.screenshot("assert_fail_");
+        log.error("Assert fail");
         throw new AssertionError(message);
     }
 

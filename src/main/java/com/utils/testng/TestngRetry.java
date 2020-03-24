@@ -1,5 +1,6 @@
 package com.utils.testng;
 
+import com.utils.log.LoggerController;
 import org.apache.log4j.Logger;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
@@ -11,7 +12,7 @@ import com.utils.testng.utils.ConfigReader;
  *
  */
 public class TestngRetry implements IRetryAnalyzer {
-	private static Logger logger = Logger.getLogger(TestngRetry.class);
+	private static LoggerController logger = LoggerController.getLogger(TestngRetry.class);
 	private int retryCount = 1;
 	private static int maxRetryCount;
 

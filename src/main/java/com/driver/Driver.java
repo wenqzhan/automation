@@ -21,6 +21,7 @@ public class Driver {
     public static By by;
     public static JSONObject jsonObject;
     public static Actions action ;
-
+    public static String text;
+    public static boolean hasException = false;
 
 }

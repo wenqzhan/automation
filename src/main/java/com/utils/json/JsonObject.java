@@ -22,6 +22,7 @@ public class JsonObject {
 
 
     public static void setJsonObject(String description, String strAfterBy, String value ){
+        jsonObject.clear();
         jsonObject.put("description",description);
         jsonObject.put(strAfterBy,value);
     }

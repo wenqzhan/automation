@@ -1,12 +1,14 @@
 package com.utils.testng.utils;
 
+import com.utils.log.LoggerController;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Properties;
 
-import org.testng.log4testng.Logger;
+
 
 /**
  * Read config properties file.
@@ -15,7 +17,7 @@ import org.testng.log4testng.Logger;
  * 
  */
 public class ConfigReader {
-	private static Logger logger = Logger.getLogger(ConfigReader.class);
+	private static LoggerController logger = LoggerController.getLogger(ConfigReader.class);
 	private static ConfigReader cr;
 	private int retryCount = 0;
 	private String sourceCodeDir = "src";

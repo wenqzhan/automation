@@ -1,9 +1,9 @@
-package com.steps.logintest;
+package com.steps.loginTest;
 
 import com.driver.$;
 import com.actions.OpenBrowserAction;
-import com.pageobject.matrix.LoginPage;
-import com.pageobject.matrix.TopNavigator;
+import com.pageObject.matrix.LoginPage;
+import com.pageObject.matrix.navigate.TopNavigator;
 import com.utils.asserts.MyAssert;
 import com.utils.log.LoggerController;
 import io.cucumber.java.zh_cn.*;
@@ -15,6 +15,7 @@ public class LoginTestStepdefs extends $ {
 
     @当("^我用\"(.*?)\"打开\"(.*?)\"$")
     public void open(String browser, String website) throws Throwable {
+        log.info("--------------测试开始-------------------");
         // Write code here that turns the phrase above into concrete actions
         if (driver == null) {
             if (browser.equals("谷歌浏览器")) {
@@ -106,5 +107,6 @@ public class LoginTestStepdefs extends $ {
     @当("^全部完成时退出驱动$")
     public void closeDriver(){
         $.quit();
+        log.info("--------------测试结束-------------------");
     }
 }

@@ -28,6 +28,7 @@ public class locateWebElement {
 //        窗口最大化
         WebElement element = driver.findElement(By.id("kw"));
 //        通过ID定位元素,这个方法最快.  定位百度页面ID为kw的元素(搜索框)
+        System.out.println(element);
         element.sendKeys("双11");
 //        搜索框内输入双11
         element.submit();
@@ -183,10 +184,12 @@ public class locateWebElement {
 
     @BeforeMethod
     public void openBrowser() {
-        System.setProperty("webdriver.gecko.driver", "d:\\driver\\geckodriver.exe");
+        //System.setProperty("webdriver.gecko.driver", "LogEventListener:\\driver\\geckodriver.exe");
 //        指定驱动位置，这里使用的是绝对路径
-        System.setProperty("webdriver.firefox.bin", "c:\\Program Files\\Mozilla Firefox\\firefox.exe");
+        //System.setProperty("webdriver.firefox.bin", "c:\\Program Files\\Mozilla Firefox\\firefox.exe");
 //        指定浏览器的位置
+        String path = System.getProperty("user.dir");
+        System.setProperty("webdriver.gecko.driver",path + "\\drivers\\geckodriver.exe");
         driver = new FirefoxDriver();
 
 //        创建火狐浏览器驱动对象

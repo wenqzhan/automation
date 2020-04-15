@@ -43,7 +43,7 @@ public class isSelected {
 
     @BeforeMethod
     public void openBrowser() {
-        System.setProperty("webdriver.gecko.driver", "d:\\driver\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "LogEventListener:\\driver\\geckodriver.exe");
 //        指定驱动位置，这里使用的是绝对路径
         System.setProperty("webdriver.firefox.bin", "c:\\Program Files\\Mozilla Firefox\\firefox.exe");
 //        指定浏览器的位置

@@ -52,7 +52,7 @@ public class TestResultListener extends TestListenerAdapter {
 	public void onFinish(ITestContext testContext) {
 		super.onFinish(testContext);
 
-		// List of test results which we will delete later
+		// ListMisc of test results which we will delete later
 		ArrayList<ITestResult> testsToBeRemoved = new ArrayList<ITestResult>();
 		// collect all id's from passed test
 		Set<Integer> passedTestIds = new HashSet<Integer>();

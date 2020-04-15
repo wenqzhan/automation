@@ -18,7 +18,7 @@ public class openWebBrowser {
 //    driver 是公共的，方便test或者aftermethod使用
     @Test
     public void openFireFoxTest() throws InterruptedException {
-        System.setProperty("webdriver.gecko.driver", "d:\\driver\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "LogEventListener:\\driver\\geckodriver.exe");
 //        指定驱动位置，这里使用的是绝对路径
         System.setProperty("webdriver.firefox.bin", "c:\\Program Files\\Mozilla Firefox\\firefox.exe");
 //        指定浏览器的位置
@@ -77,7 +77,7 @@ public class openWebBrowser {
 
     @Test
     public void openChromeTest() {
-        System.setProperty("webdriver.chrome.driver", "d:\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "LogEventListener:\\driver\\chromedriver.exe");
 //        指定驱动位置，这里使用的是绝对路径
         System.setProperty("webdriver.chrome.bin", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 //        指定浏览器的位置
@@ -91,7 +91,7 @@ public class openWebBrowser {
 
     @Test
     public void openIETest() {
-        System.setProperty("webdriver.ie.driver", "d:\\driver\\IEDriverServer.exe");
+        System.setProperty("webdriver.ie.driver", "LogEventListener:\\driver\\IEDriverServer.exe");
 //        指定驱动位置，这里使用的是绝对路径
 //        System.setProperty("webdriver.chrome.bin", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 //        指定浏览器的位置,ie 位置无需指定
@@ -106,7 +106,7 @@ public class openWebBrowser {
 
     @Test
     public void openEdgeTest() {
-        System.setProperty("webdriver.edge.driver", "d:\\driver\\MicrosoftWebDriver.exe");
+        System.setProperty("webdriver.edge.driver", "LogEventListener:\\driver\\MicrosoftWebDriver.exe");
 //        指定驱动位置，这里使用的是绝对路径
 //        System.setProperty("webdriver.chrome.bin", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
 //        指定浏览器的位置,edge位置无需指定

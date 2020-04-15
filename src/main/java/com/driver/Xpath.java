@@ -11,8 +11,6 @@ import java.util.List;
 public class Xpath {
 
 
-
-
     private final static LoggerController log = LoggerController.getLogger(Xpath.class);
     private static int i1 = 1;
     private static int i2 = 1;
@@ -66,7 +64,7 @@ public class Xpath {
             sb.append("[1=1");
         }
 
-        if (childTagName.equals("svg")){
+        if (childTagName.equals("svg")) {
             sb.append("*[1=1");
             sb.append(" and name()='svg'");
 
@@ -94,11 +92,17 @@ public class Xpath {
             //System.out.println("attribute"+i1+":"+attribute);
             value = j.getString("value");
             //System.out.println("value"+i1+":"+value);
-            sb.append(" and not(contains(@");
-            sb.append(attribute);
-            sb.append(",\'");
-            sb.append(value);
-            sb.append("\'))");
+            if (value != null) {
+                sb.append(" and not(contains(@");
+                sb.append(attribute);
+                sb.append(",\'");
+                sb.append(value);
+                sb.append("\'))");
+            } else if (value == null) {
+                sb.append(" and not(@");
+                sb.append(attribute);
+                sb.append(")");
+            }
             i2++;
         }
 

@@ -262,7 +262,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Byte.toString(expected[i]), Byte.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Byte.toString(expected[i]), Byte.toString(actual[i]), message));
                 }
             }
 
@@ -277,7 +277,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Short.toString(expected[i]), Short.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Short.toString(expected[i]), Short.toString(actual[i]), message));
                 }
             }
 
@@ -292,7 +292,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Integer.toString(expected[i]), Integer.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Integer.toString(expected[i]), Integer.toString(actual[i]), message));
                 }
             }
 
@@ -307,7 +307,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Boolean.toString(expected[i]), Boolean.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Boolean.toString(expected[i]), Boolean.toString(actual[i]), message));
                 }
             }
 
@@ -322,7 +322,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Character.toString(expected[i]), Character.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Character.toString(expected[i]), Character.toString(actual[i]), message));
                 }
             }
 
@@ -336,7 +336,7 @@ public class MyAssert {
     public static void assertEquals(float[] actual, float[] expected, String message) {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
-                assertEquals(actual[i], expected[i], String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Float.toString(expected[i]), Float.toString(actual[i]), message));
+                assertEquals(actual[i], expected[i], String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Float.toString(expected[i]), Float.toString(actual[i]), message));
             }
 
         }
@@ -349,7 +349,7 @@ public class MyAssert {
     public static void assertEquals(float[] actual, float[] expected, float delta, String message) {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
-                assertEquals(actual[i], expected[i], delta, String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Float.toString(expected[i]), Float.toString(actual[i]), message));
+                assertEquals(actual[i], expected[i], delta, String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Float.toString(expected[i]), Float.toString(actual[i]), message));
             }
 
         }
@@ -362,7 +362,7 @@ public class MyAssert {
     public static void assertEquals(double[] actual, double[] expected, String message) {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
-                assertEquals(actual[i], expected[i], String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Double.toString(expected[i]), Double.toString(actual[i]), message));
+                assertEquals(actual[i], expected[i], String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Double.toString(expected[i]), Double.toString(actual[i]), message));
             }
 
         }
@@ -375,7 +375,7 @@ public class MyAssert {
     public static void assertEquals(double[] actual, double[] expected, double delta, String message) {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
-                assertEquals(actual[i], expected[i], delta, String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Double.toString(expected[i]), Double.toString(actual[i]), message));
+                assertEquals(actual[i], expected[i], delta, String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Double.toString(expected[i]), Double.toString(actual[i]), message));
             }
 
         }
@@ -389,7 +389,7 @@ public class MyAssert {
         if (!checkRefEqualityAndLength(actual, expected, message)) {
             for(int i = 0; i < expected.length; ++i) {
                 if (expected[i] != actual[i]) {
-                    fail(String.format("arrays differ firstly at element [%d]; expected value is <%s> but was <%s>. %s", i, Long.toString(expected[i]), Long.toString(actual[i]), message));
+                    fail(String.format("arrays differ firstly at element [%LogEventListener]; expected value is <%s> but was <%s>. %s", i, Long.toString(expected[i]), Long.toString(actual[i]), message));
                 }
             }
 

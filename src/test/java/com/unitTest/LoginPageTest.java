@@ -1,7 +1,7 @@
 package com.unitTest;
 
 import com.alibaba.fastjson.JSONObject;
-import com.pageobject.oldmatrix.OldLoginPage;
+import com.pageObject.oldMatrix.OldLoginPage;
 import org.testng.annotations.Test;
 
 public class LoginPageTest {

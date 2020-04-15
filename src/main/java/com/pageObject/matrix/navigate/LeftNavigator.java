@@ -1,4 +1,4 @@
-package com.pageobject.matrix;
+package com.pageObject.matrix.navigate;
 
 import com.alibaba.fastjson.JSONObject;
 import com.utils.json.JsonObject;

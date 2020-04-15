@@ -1,4 +1,4 @@
-package com.pageobject.matrix;
+package com.pageObject.matrix;
 
 import com.alibaba.fastjson.JSONObject;
 import com.utils.json.JsonObject;
@@ -6,6 +6,7 @@ import com.utils.json.JsonObject;
 public class LoginPage extends JsonObject {
 
     public static String matrixLoginUrl = "http://10.187.144.60:8080/user/login";
+    public static String matrix = "http://10.187.144.60:8080/";
 
     public final static String d1="新matrix登录页面用户名输入框";
     private final static String i1="username";

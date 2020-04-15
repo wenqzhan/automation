@@ -85,7 +85,7 @@ public class JsonTest {
 
         System.out.println(object.getString("contains"));
 
-        //List<Integer> integers = JSON.parseArray(object.getJSONArray("list").toJSONString(), Integer.class);
+        //ListMisc<Integer> integers = JSON.parseArray(object.getJSONArray("list").toJSONString(), Integer.class);
         List<JSONObject> jsonObjects =JSON.parseArray(object.getJSONArray("contains").toJSONString(),JSONObject.class);
         for(JSONObject j:jsonObjects){
             System.out.println(j.getString("attribute"));
@@ -168,7 +168,7 @@ public class JsonTest {
 
     }
 
-    //List<Integer> integers = Arrays.asList(1, 2, 3);
+    //ListMisc<Integer> integers = Arrays.asList(1, 2, 3);
         //object.put("list", integers);
 
 

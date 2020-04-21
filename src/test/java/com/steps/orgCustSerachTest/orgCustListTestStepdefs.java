@@ -132,7 +132,7 @@ public class orgCustListTestStepdefs extends $ {
         if(singleOrMore.equals("单个")){
             sql = "select ID_TYYX from (select ID_TYYX from cust_info_all where ID_TYYX is not null order by dbms_random.value ) where rownum=1";
             String certificateForUniformSocialCreditCode = OrgCustListAction.getSqlResultStr(sql);
-            str = certificateForUniformSocialCreditCode;
+            description = certificateForUniformSocialCreditCode;
             OrgCustListAction.searchCertificateForUniformSocialCreditCode(certificateForUniformSocialCreditCode);
 
         }else if(singleOrMore.equals("组合")){
@@ -146,7 +146,7 @@ public class orgCustListTestStepdefs extends $ {
         List<String> list = tableContent.get(0);
         int a = ListMisc.getPosition(list, "统一社会信用代码");
         for (int i = 1; i < tableContent.size(); i++) {
-            Assert.assertNotEquals(tableContent.get(i).get(a), str, "查询的是统一社会信用代码,但是查询结果里响应表格字段值不对");
+            Assert.assertNotEquals(tableContent.get(i).get(a), description, "查询的是统一社会信用代码,但是查询结果里响应表格字段值不对");
         }
     }
 

@@ -13,7 +13,7 @@ public class XpathTest {
 
     @Test
     public void ffgfgf(){
-
+        System.out.println(AssignCust.getJson(AssignCust.dd1Pdd3));
 //        String a = AssignCust.xx5t;
 //        System.out.println(a);
     }
@@ -26,9 +26,9 @@ public class XpathTest {
     public void teeeee(){
 
         String parentXpath ="";
-        String childTagName ="li";
-        String childTagText ="个人";
-        String[] containsAttributeValue ={};
+        String childTagName ="input";
+        String childTagText ="";
+        String[] containsAttributeValue ={"placeholder,输入用户名查询..."};
         String[] notContainsAttributeValue ={};
         JSONObject jsonObject = XpathJson.fabricateJsonObject(parentXpath,childTagName,childTagText,containsAttributeValue,notContainsAttributeValue);
 

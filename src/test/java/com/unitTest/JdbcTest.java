@@ -21,10 +21,10 @@ public class JdbcTest
 
     @Test
     public void teeeee() throws SQLException, ClassNotFoundException {
-        String sql="select cust_name from (select * from cust_info order by dbms_random.value) where rownum=1";
-
-
-        JDBC.getResultSet(sql);
+        String[] a = JDBC.getPagination(3,30);
+        for(String s:a){
+            System.out.println(s);
+        }
     }
 
 

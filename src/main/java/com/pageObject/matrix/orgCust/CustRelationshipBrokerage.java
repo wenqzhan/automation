@@ -10,79 +10,79 @@ public class CustRelationshipBrokerage extends JsonObject { //客户关系经纪
             "http://10.187.144.60:8080/orgcust/custRelationshipBrokerage";
 
     public final static String d1 = "客户关系经纪业务-查询按钮";
-    private final static String x1 = CommonObject.getStr(CommonObject.d3);
+    private final static String x1 = CommonObject.getXpath(CommonObject.d3);
 
     public final static String d2 = "客户关系经纪业务-重置按钮";
-    private final static String x2 = CommonObject.getStr(CommonObject.d4);
+    private final static String x2 = CommonObject.getXpath(CommonObject.d4);
 
     public final static String d3 = "客户关系经纪业务-报表导出按钮";
-    private final static String x3 = CommonObject.getStr(CommonObject.d6);
+    private final static String x3 = CommonObject.getXpath(CommonObject.d6);
 
     public final static String d4 = "客户关系经纪业务-报表导出确认按钮";
-    private final static String x4 = CommonObject.getStr(CommonObject.d7);
+    private final static String x4 = CommonObject.getXpath(CommonObject.d7);
 
     public final static String d5 = "客户关系经纪业务-报表导出文件名输入框";
-    private final static String x5 = CommonObject.getStr(CommonObject.d8);
+    private final static String x5 = CommonObject.getXpath(CommonObject.d8);
 
     public final static String d6 = "客户关系经纪业务-表格";
-    private final static String x6 = CommonObject.getStr(CommonObject.d9);
+    private final static String x6 = CommonObject.getXpath(CommonObject.d9);
 
     public final static String d7 = "客户关系经纪业务-表格表体rows";
-    private final static String x7 = CommonObject.getStr(CommonObject.d10);
+    private final static String x7 = CommonObject.getXpath(CommonObject.d10);
 
     public final static String d8 = "客户关系经纪业务-表格表头row下的th col";
-    private final static String x8 = CommonObject.getStr(CommonObject.d11);
+    private final static String x8 = CommonObject.getXpath(CommonObject.d11);
 
     public final static String d9 = "客户关系经纪业务-表格下方翻页按钮-下一页前的按钮,可以看出共多少页";
-    private final static String x9 = CommonObject.getStr(CommonObject.d14);
+    private final static String x9 = CommonObject.getXpath(CommonObject.d14);
 
     public final static String d10 = "客户关系经纪业务-表格下方跳页输入框";
-    private final static String x10 = CommonObject.getStr(CommonObject.d15);
+    private final static String x10 = CommonObject.getXpath(CommonObject.d15);
 
     public final static String d11 = "客户关系经纪业务-表格下方跳页输入框左边的跳至两个字";
-    private final static String x11 = CommonObject.getStr(CommonObject.d16);
+    private final static String x11 = CommonObject.getXpath(CommonObject.d16);
 
     public final static String d12 = "客户关系经纪业务-查询条件展开收起按钮";
-    private final static String x12 = CommonObject.getStr(CommonObject.d5);
+    private final static String x12 = CommonObject.getXpath(CommonObject.d5);
 
     public final static String d13 = "客户关系经纪业务-表格下方翻页按钮-上一页";
-    private final static String x13 = CommonObject.getStr(CommonObject.d12);
+    private final static String x13 = CommonObject.getXpath(CommonObject.d12);
 
     public final static String d14 = "客户关系经纪业务-表格下方翻页按钮-下一页";
-    private final static String x14 = CommonObject.getStr(CommonObject.d13);
+    private final static String x14 = CommonObject.getXpath(CommonObject.d13);
 
 
     public final static String d17 = "客户关系经纪业务-数据加载(转菊花)";
-    private final static String x17 = CommonObject.getStr(CommonObject.d17);
+    private final static String x17 = CommonObject.getXpath(CommonObject.d17);
 
     public final static String d18 = "客户关系经纪业务-条/页";
-    private final static String x18 = CommonObject.getStr(CommonObject.d18);
+    private final static String x18 = CommonObject.getXpath(CommonObject.d18);
 
 
     public final static String d19 = "客户关系经纪业务-客户柜台代码查询框";
-    private final static String x19 = CommonObject.getStr(CommonObject.d19);
+    private final static String x19 = CommonObject.getXpath(CommonObject.d19);
 
 
     public final static String d20 = "客户关系经纪业务-账户名称查询框";
-    private final static String x20 = CommonObject.getStr(CommonObject.d20);
+    private final static String x20 = CommonObject.getXpath(CommonObject.d20);
 
     public final static String d21 = "客户关系经纪业务-资金账号查询框";
-    private final static String x21 = CommonObject.getStr(CommonObject.d21);
+    private final static String x21 = CommonObject.getXpath(CommonObject.d21);
 
     public final static String d22 = "客户关系经纪业务-账户类型查询选择框";/////
-    private final static String x22 = CommonObject.getStr(CommonObject.d22);
+    private final static String x22 = CommonObject.getXpath(CommonObject.d22);
 
     public final static String d23 = "客户关系经纪业务-归属机构查询框";
-    private final static String x23 = CommonObject.getStr(CommonObject.d23);
+    private final static String x23 = CommonObject.getXpath(CommonObject.d23);
 
     public final static String d24 = "客户关系经纪业务-开发类型查询选择框";/////
-    private final static String x24 = CommonObject.getStr(CommonObject.d24);
+    private final static String x24 = CommonObject.getXpath(CommonObject.d24);
 
     public final static String d25 = "客户关系经纪业务-经纪业务关系类型查询选择框";////
-    private final static String x25 = CommonObject.getStr(CommonObject.d25);
+    private final static String x25 = CommonObject.getXpath(CommonObject.d25);
 
     public final static String d26 = "客户关系经纪业务-登记人查询框";
-    private final static String x26 = CommonObject.getStr(CommonObject.d26);
+    private final static String x26 = CommonObject.getXpath(CommonObject.d26);
 
 
     public static JSONObject getJson(String description) {

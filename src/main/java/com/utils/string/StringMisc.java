@@ -1,5 +1,7 @@
 package com.utils.string;
 
+import com.utils.random.Randoms;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,8 +47,13 @@ public class StringMisc {
     }
 
 
-
-
+    public static String getPartialStr(String str) {
+        int b = str.length();
+        int a = Randoms.getRandomNum(0, b - 1);
+        b = Randoms.getRandomNum(a+1,b);
+        String s = str.substring(a, b);
+        return s;
+    }
 
 
 }

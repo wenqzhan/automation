@@ -153,7 +153,7 @@ public class JDBC {
                         ntr = ("A" + str).trim().substring(1);
                         //String b=rs.getString(2);
                     } else {
-//                        str=a;
+//                        description=a;
                         ntr = a;
                     }
 
@@ -171,8 +171,10 @@ public class JDBC {
             connection.close();
         } catch (SQLException e) {
             log.error("SQLException");
+            e.printStackTrace();
         } catch (ClassNotFoundException e) {
             log.error("ClassNotFoundException after sql");
+            e.printStackTrace();
         }
 
         //return connection; //返回一个连接
@@ -184,7 +186,7 @@ public class JDBC {
      * 根据传入的sql语句获得查询结果,这里实现的是sql查询结果第一行第一个
      *
      * @param sql sql语句
-     * @return str
+     * @return description
      */
     public static String getSqlResultStr(String sql) {
         List<List<String>> list = new ArrayList<>();
@@ -216,12 +218,19 @@ public class JDBC {
         return num;
     }
 
-    public static String getPagination(int pageNum, int itemPerPage) {
+    public static String[] getPagination(int pageNum, int itemPerPage) {
+
+        String[] pagination = new String[2];
+
+        int a = pageNum*itemPerPage+1;
+        int b = (pageNum-1)*itemPerPage;
+        pagination[0] = " and rownum < " + a;
+        pagination[1] = " and row_id > " + b;
 
         int min = (pageNum - 1) * itemPerPage + 1;
         int max = pageNum * itemPerPage;
 
-        String pagination = " and (编号 >= " + min + " and 编号 <= " + max + " )";
+        //String pagination = " and (编号 >= " + min + " and 编号 <= " + max + " )";
 
         return pagination;
     }
@@ -239,13 +248,13 @@ public class JDBC {
 
     public static String getWhereLike(String column, String value) {
 
-        String where = "";
-        where = where + " and ";
-        where = where + column + " like ";
-        where = where + "'%" + value + "%'";
-
-        return where;
+        String whereLike = "";
+        whereLike = whereLike + " and ";
+        whereLike = whereLike + column + " like ";
+        whereLike = whereLike + "'%" + value + "%'";
+        return whereLike;
     }
+
 
 
 }

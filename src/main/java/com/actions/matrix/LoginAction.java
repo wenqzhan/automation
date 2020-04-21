@@ -43,12 +43,12 @@ public class LoginAction extends $ {
         $.get(LoginPage.matrix);
         jsonObject = LoginPage.getJson(LoginPage.d1);
         $.findElement(jsonObject);
-        $.clear();
+        //$.clear();
         $.sendKeys("999999");
 
         jsonObject = LoginPage.getJson(LoginPage.d2);
         $.findElement(jsonObject);
-        $.clear();
+        //$.clear();
         $.sendKeys("gtja@123456");
 
         jsonObject = LoginPage.getJson(LoginPage.d4);

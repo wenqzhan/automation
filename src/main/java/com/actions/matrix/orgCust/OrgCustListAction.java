@@ -89,7 +89,7 @@ public class OrgCustListAction extends $ {
     /**
      * 根据传入的sql语句获得查询结果,这里实现的是sql查询结果第一行第一个
      * @param sql sql语句
-     * @return str
+     * @return description
      */
     public static String getSqlResultStr(String sql) {
 

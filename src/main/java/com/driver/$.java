@@ -44,9 +44,38 @@ public class $ extends Driver {
     }
 
     /**
+     * 获取标签内某个属性值
+     */
+    public static String getAttribute(String attribute) {
+        String str = "";
+
+        try {
+            str = element.getAttribute(attribute);
+            log.info("标签内的attribute:" +attribute + "是" + str);
+        } catch (Exception e) {
+            log.error("获取标签属性失败");
+            //hasException = true;
+            throw e;
+        }
+
+        attributeValue = str;
+
+        return str;
+    }
+
+
+
+
+    public static boolean isNotDisplayed(JSONObject jsonObject){
+        return isNotDisplayed(jsonObject,60);
+    }
+
+
+
+    /**
      * 如果某元素找得到,那么就继续找,一直找到找不到为止
      */
-    public static boolean isNotDisplayed(JSONObject jsonObject) {
+    public static boolean isNotDisplayed(JSONObject jsonObject, int timeInSeconds) {
         boolean b = false;
         long startTime = System.currentTimeMillis();   //获取开始时间
         while (true) {//一直找,找到超时为止
@@ -54,8 +83,8 @@ public class $ extends Driver {
                 findElement(jsonObject, 2, false);
                 long endTime = System.currentTimeMillis(); //获取结束时间
                 long dif = endTime - startTime;
-                if (dif > 60000) {//1分钟超时
-                    log.error("超时,已经过了一分钟,为了避免死循环,不再继续查找");
+                if (dif > timeInSeconds * 1000) {//1分钟超时
+                    log.info("已超过设定的时间:"+timeInSeconds+"秒,不再继续查找.元素一直找得到");
                     break;
                 }
             } catch (Exception e) {
@@ -73,8 +102,14 @@ public class $ extends Driver {
      * eg: 输入框中有内容,调用此方法后清除
      */
     public static void clear() {
+        log.info("开始clear");
         try {
             element.clear();
+            String a = getInputValue();
+            if(!a.equals("")){
+                log.info("selenium原生的clear没用,尝试用javascript来clear");
+                ((JavascriptExecutor) driver).executeScript("arguments[0].value=''", element);
+            }
             log.info("clear 成功");
         } catch (Exception e) {
             log.error("clear 失败");
@@ -92,6 +127,8 @@ public class $ extends Driver {
      */
     public static void sendKeys(CharSequence... keysToSend) {
         try {
+            click();
+            clear();
             element.sendKeys(keysToSend);
             log.info("输入了:" + CharSequenceToString.toString(keysToSend));
         } catch (Exception e) {
@@ -138,14 +175,14 @@ public class $ extends Driver {
      */
     public static WebElement findElement(JSONObject jsonObject, int timeOutInSeconds) {
 
-        str = jsonObject.getString("description");
+        description = jsonObject.getString("description");
         if (jsonObject.getString("xpath") != null) {//解析传入的json,如果有xpath,那么是xpath定位
             by = By.xpath(jsonObject.getString("xpath"));
         } else if (jsonObject.getString("id") != null) {//解析传入的json,如果有id,那么是id定位
             by = By.id(jsonObject.getString("id"));
         }
 
-        log.info("即将定位元素:" + str);
+        log.info("即将定位元素:" + description);
         return findElement(by, timeOutInSeconds);
     }
 
@@ -168,13 +205,13 @@ public class $ extends Driver {
      * @return List<WebElement>
      */
     public static List<WebElement> findElements(JSONObject jsonObject, int timeOutInSeconds) {
-        str = jsonObject.getString("description");
+        description = jsonObject.getString("description");
         if (jsonObject.getString("xpath") != null) {//解析传入的json,如果有xpath,那么是xpath定位
             by = By.xpath(jsonObject.getString("xpath"));
         } else if (jsonObject.getString("id") != null) {//解析传入的json,如果有id,那么是id定位
             by = By.id(jsonObject.getString("id"));
         }
-        log.info("即将定位元素:" + str);
+        log.info("即将定位元素:" + description);
         return findElements(by, timeOutInSeconds);
     }
 
@@ -223,14 +260,14 @@ public class $ extends Driver {
      * @return WebElement
      */
     public static WebElement findChildElement(JSONObject jsonObject, int timeOutInSeconds) {
-        str = jsonObject.getString("description");
+        description = jsonObject.getString("description");
         if (jsonObject.getString("xpath") != null) {
             by = By.xpath(jsonObject.getString("xpath"));
         } else if (jsonObject.getString("id") != null) {
             by = By.id(jsonObject.getString("id"));
 
         }
-        log.info("即将定位元素:" + str);
+        log.info("即将定位元素:" + description);
         return findChildElement(by, timeOutInSeconds);
     }
 

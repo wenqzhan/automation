@@ -137,7 +137,7 @@ public class OpenBrowserDemo1 extends $ {
 
         //$.getWindowHandles(10);
 
-        //str = $.getText();
+        //description = $.getText();
 
         jsonObject = CustomerRelationshipFundAccount.get$Json("last()");
         $.findElement(jsonObject);
@@ -147,9 +147,9 @@ public class OpenBrowserDemo1 extends $ {
         int num1 = Randoms.getRandomNum(1, Integer.valueOf(str));
         str = String.valueOf(num1);//获取随机数
 
-        //System.out.println(str);
+        //System.out.println(description);
         CustomerRelationshipFundAccountAction.getInfo(str);//获得表头和一行数据(表格信息)
-        //System.out.println(str);
+        //System.out.println(description);
         jsonObject = CustomerRelationshipFundAccount.get$Json(str);//定位到随机到的那一行
         //System.out.println(jsonObject);
         $.findElement(jsonObject);

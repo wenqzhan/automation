@@ -1,10 +1,14 @@
 package com.unitTest;
 
 import com.pageObject.matrix.orgCust.customerRelationshipFundAccount.DetailsPage;
+import com.utils.list.ListMisc;
 import com.utils.num.IntMisc;
 import com.utils.random.Randoms;
 import com.utils.string.StringMisc;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class StringTest {
 
@@ -45,6 +49,21 @@ public class StringTest {
     @Test
     public static void ttttats(){
         String a =DetailsPage.getXpath("li","开户日期");
+        System.out.println(a);
+    }
+
+    @Test
+    public static void ttttat1s(){
+        List<String> l1 = new ArrayList<>();
+        List<String> l2 = new ArrayList<>();
+
+        l1.add("111");
+        l1.add("222");
+
+        l2.add("111");
+//        l2.add("22");
+
+       boolean a = ListMisc.isEqual1(l1,l2);
         System.out.println(a);
     }
 

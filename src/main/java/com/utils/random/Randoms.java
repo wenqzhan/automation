@@ -11,7 +11,7 @@ public class Randoms {
     public static long getRandomNum(int length){
         long num = 0;
         num = (long) (Math.random() * Math.pow(10,length));
-        //String str = String.valueOf(randomPageNum);
+        //String description = String.valueOf(randomPageNum);
         log.info("生成随机数" + num + "位数:" +length);
         return num;
     }

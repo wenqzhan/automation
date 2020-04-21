@@ -9,10 +9,10 @@ public class OrgCustList extends JsonObject {
     public static String matrixOrgCustList = "http://10.187.144.60:8080/orgcust/list";
 
     public final static String d1="客户查询-客户名称查询框";
-    private final static String x1=CommonObject.getStr(CommonObject.d2);
+    private final static String x1=CommonObject.getXpath(CommonObject.d2);
 
     public final static String d2="客户查询-OA账号查询框";
-    private final static String x2= CommonObject.getStr(CommonObject.d1);
+    private final static String x2= CommonObject.getXpath(CommonObject.d1);
 
     public final static String d3="客户查询-客户经理查询框";
     private final static String x3="//input[1=1 and contains(@type,'text') and contains(@class,'ant-input') and not(@placeholder)]";
@@ -21,22 +21,22 @@ public class OrgCustList extends JsonObject {
     private final static String x4="//input[1=1 and contains(@placeholder,'请输入统一社会信用代码')]";
 
     public final static String d5="客户查询-查询按钮";
-    private final static String x5=CommonObject.getStr(CommonObject.d3);
+    private final static String x5=CommonObject.getXpath(CommonObject.d3);
 
     public final static String d6="客户查询-重置按钮";
-    private final static String x6=CommonObject.getStr(CommonObject.d4);
+    private final static String x6=CommonObject.getXpath(CommonObject.d4);
 
     public final static String d7="客户查询-查询条件展开收起按钮";
-    private final static String x7=CommonObject.getStr(CommonObject.d5);
+    private final static String x7=CommonObject.getXpath(CommonObject.d5);
 
     public final static String d8="客户查询-表格";
-    private final static String x8=CommonObject.getStr(CommonObject.d9);
+    private final static String x8=CommonObject.getXpath(CommonObject.d9);
 
     public final static String d9="客户查询-表格表体rows";
-    private final static String x9=CommonObject.getStr(CommonObject.d10);
+    private final static String x9=CommonObject.getXpath(CommonObject.d10);
 
     public final static String d10="客户查询-表格表头row下的th col";
-    private final static String x10=CommonObject.getStr(CommonObject.d11);
+    private final static String x10=CommonObject.getXpath(CommonObject.d11);
 
     public final static String d11="客户查询-表格表头rows中的超链接s";
     private final static String x11="//table[1=1 and contains(@class,'ant-table-fixed')]//tr[@data-row-key]//a";
